@@ -14,7 +14,7 @@ const port = process.env.PORT || 4001;
 
 // Allow requests only from the frontend dev server running on localhost:5173
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://insta-mini-social-media-post-app.vercel.app/',
   credentials: true,
 }));
 app.use(bodyParser.json()); // to support JSON-encoded bodies
