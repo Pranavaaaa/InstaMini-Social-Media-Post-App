@@ -11,6 +11,13 @@ This README explains how to run the project locally, environment variables, repo
 
 ---
 
+## Live Demo
+
+- Frontend: [https://insta-mini-social-media-post-app.vercel.app/](https://insta-mini-social-media-post-app.vercel.app/)
+- Backend: [https://instamini-social-media-post-app.onrender.com](https://instamini-social-media-post-app.onrender.com)
+
+---
+
 ## Quick start (development)
 
 Prerequisites
@@ -23,7 +30,7 @@ Prerequisites
 
 ```bash
 git clone <repo-url>
-cd InstaMini---Social-Media-Post-App
+cd InstaMini-Social-Media-Post-App
 ```
 
 2. Install dependencies and run server
