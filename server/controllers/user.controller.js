@@ -13,8 +13,6 @@ const registerUser = async (req, res, next) => {
 
       const { email, password, fullname } = req.body;
 
-      console.log(req.body, "user.controller");
-
       const hashPassword = await userModel.hashPassword(password);
 
       const user = await userServices.createUser({

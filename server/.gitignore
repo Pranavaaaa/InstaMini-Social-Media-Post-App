@@ -17,6 +17,3 @@ Thumbs.db
 .env
 config.js
 private.key
-
-# Database
-db

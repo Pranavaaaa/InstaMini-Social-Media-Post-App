@@ -15,8 +15,6 @@ const createUser = async ({ firstname, lastname, email, password }) => {
       password,
     });
 
-    console.log(user, "user.services");
-
     return user;
   } catch (error) {
     throw new Error(error);
